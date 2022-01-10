@@ -1,0 +1,13 @@
+spring.datasource:
+  driver_class: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/search_engine
+  username: root
+  password: testtest
+  jpa:
+  hibernate.ddl-auto: none
+  show_sql: true
+  current_session_context_class: thread
+  dialect: org.hibernate.dialect.MySQL5Dialect
+sites:
+  url: http://playback.ru,http://radiomv.ru,https://lenta.ru/
+  name: playback,Радио Милицейская волна,Лента
